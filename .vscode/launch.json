@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Passe o mouse para ver as descrições dos atributos existentes.
+    // Para obter mais informações, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "ProtractorExample",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/node_modules/protractor/bin/protractor",
+            "stopOnEntry": false,
+            "args": [
+                "${workspaceRoot}/conf.js",
+            ],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+        }
+    ]
+}

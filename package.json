@@ -1,0 +1,20 @@
+{
+  "name": "protractor-example",
+  "version": "1.0.0",
+  "description": "Protractor example for Udacity tutor's test.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "webdriver-manager update && webdriver-manager start",
+    "start": "protractor conf.js"
+  },
+  "keywords": [
+    "protractor"
+  ],
+  "author": "Pedro Arvellos",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
+    "npm": "^6.5.0",
+    "protractor": "^5.4.1"
+  }
+}
