@@ -1,15 +1,12 @@
 class AngularHomePage {
-  constructor() {
-
-  }
   async getPage(pageAddress) {
     return browser.get(pageAddress);
   }
 
   async clickOnNavLink(navLinkName) {
-    const rowTableElement = element(by.cssContainingText('.nav-link-inner', navLinkName));
+    const navLinkElement = element(by.cssContainingText('.nav-link-inner', navLinkName));
 
-    return rowTableElement.click();
+    return navLinkElement.click();
   }
 
   async getFeaturesPageTitle() {
